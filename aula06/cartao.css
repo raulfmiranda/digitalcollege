@@ -1,0 +1,49 @@
+section {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div {
+    width: 100%;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+    font-size: 1.5rem;
+}
+
+form {
+    display: block;
+    background-color: #ccc;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.75);
+}
+
+input, button, select {
+    font-size: 1.5rem;
+    height: 32px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 98%;
+}
+
+button {
+    margin-top: 20px;
+    width: 100%;
+    background-image: linear-gradient(to right, #a64d79, #38761d);
+    color: #fff;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background-image: linear-gradient(to right, #38761d, #a64d79);
+}

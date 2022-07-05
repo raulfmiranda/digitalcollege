@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <form action="">
+        <label for="cep">CEP</label>
+        <input type="text" id="cep" maxlength="5" minlength="5">
+        <br>
+        <label for="logradouro">Logradouro</label>
+        <input type="text" id="logradouro">
+        <br>
+        <label for="numero">Número</label>
+        <input type="number" id="numero" max="9999" min="0" step="1">
+        <br>
+        <label for="complemento">Complemento</label>
+        <input type="text" id="complemento">
+        <br>
+        <label for="bairro">Bairro</label>
+        <select id="bairro">
+            <option selected disabled value="">--Selecione o Bairro--</option>
+            <option>Centro</option>
+            <option>Aldeota</option>
+        </select>
+        <br>
+        <label for="cidade">Cidade</label>
+        <select id="cidade">
+            <option selected disabled value="">--Selecione a Cidade--</option>
+            <option>Fortaleza</option>
+            <option>Caucaia</option>
+        </select>
+        <br>
+        <label for="uf">UF/Estado</label>
+        <select id="uf">
+            <option selected disabled value="">--Selecione o Estado--</option>
+            <option>Ceará</option>
+            <option>Piauí</option>
+        </select>
+        <br>
+        <button>Enviar</button>
+    </form>
+</body>
+</html>

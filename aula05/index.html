@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label for="nome">Nome</label>
+        <input id="nome" type="text" placeholder="Digite aqui o nome" required>
+        <br>
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="Digite aqui o email" required>
+        <br>
+        <label for="senha">Senha</label>
+        <input id="senha" type="password" placeholder="Digite aqui a senha" required>
+        <br>
+        <label for="telefone">Telefone</label>
+        <input type="number" id="telefone" min="0">
+        <br>
+        <label for="cor">Cor</label>
+        <input type="color" id="cor">
+        <br>
+        <label for="linkedin">Linkedin</label>
+        <input type="url" id="linkedin">
+        <br>
+        <label for="data">Data de Nascimento</label>
+        <input type="date" id="data">
+        <br>
+        <label for="hora">Hora Atual</label>
+        <input type="time" id="hora">
+        <br>
+        <label for="nota">Nota</label>
+        <input type="range" title="Escolha de 1 a 5" id="hora" step="1" min="1" max="5">
+        <br>
+        <label for="curriculo">Anexe seu curriculo</label>
+        <input type="file" id="curriculo">
+        <br>
+
+        <p>Escolha o tamanho da camiseta</p>
+        <label for="p">P</label>
+        <input name="tamanho" type="radio" id="p">
+        <br>
+        <label for="m">M</label>
+        <input name="tamanho" type="radio" id="m">
+        <br>
+        <label for="g">G</label>
+        <input name="tamanho" type="radio" id="g">
+        <br>
+
+        <p>Quais suas bandas favoritas?</p>
+        <input type="checkbox" id="unha">
+        <label for="unha">Unha Pintada</label>
+        <br>
+        <input type="checkbox" id="metallica">
+        <label for="metallica">Metallica</label>
+        <br>
+
+        <input type="hidden" name="token" value="1q1qjs">
+
+        <label for="obs"></label>
+        <textarea id="obs" maxlength="180" cols="30" rows="10"></textarea>
+        <br>
+
+        <label for="cidade">Selecione sua Cidade</label>
+        <select id="cidade" required>
+            <option selected disabled>-- Clique aqui --</option>
+            <optgroup label="Ceará">
+                <option>Fortaleza</option>
+                <option>Caucaia</option>
+                <option>Parambu</option>
+            </optgroup>
+            <optgroup label="Maranhão">
+                <option>São Luiz</option>
+                <option>Imperatriz</option>
+            </optgroup>
+        </select>
+        <br>
+
+        <button>Enviar</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,20 @@
+section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.vermelho {
+    background-color: red;
+}
+
+.azul {
+    background-color: blue;
+}
+
+.dark {
+    background-color: #ccc;
+}
+
+div {
+    width: 100%;
+}
