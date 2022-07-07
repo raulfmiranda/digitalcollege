@@ -1,14 +1,12 @@
-/* https://technext.github.io/foody2/contact.html */
-
 /************* HEADER ************/
 
 body {
     font-family: 'Open Sans', sans-serif;
 }
 
-h1, h2 {
+h1, h2, h3, h4 {
     font-family: 'Lora', serif;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 h1 {
@@ -31,7 +29,7 @@ header {
     margin-left: 200px;
 }
 
-.navbar-brand {
+.brand-name {
     color: #3CB815;
     font-weight: 900;
 }
@@ -78,8 +76,8 @@ hr {
     background-color: #3CB815;
     border-radius: 0%;
     color: white;
-    height: 520px;
-    padding: 30px;
+    height: 490px;
+    padding-left: 30px;
     font-family: 'Lora', serif;
     font-size: larger;
 }
@@ -87,6 +85,10 @@ hr {
 dt {
     margin-top: 40px;
     margin-bottom: 10px;
+}
+
+dd {
+    font-family: 'Open Sans', sans-serif;
 }
 
 .form__firstrow {
@@ -132,4 +134,26 @@ textarea {
 footer {
     color: #999999;
     padding: 100px;
+}
+
+.list-group-item {
+    color: #999999;
+}
+
+.quick-links {
+    margin-bottom: -15px;
+}
+
+.signup-button {
+    height: 70%;
+    border-radius: 0%;
+    position: relative;
+    right: 85px;
+    top: 20px;
+}
+
+.footer-hr {
+    margin-top: 50px;
+    margin-bottom: 25px;
+    border-top: 0.5px solid #999999;
 }

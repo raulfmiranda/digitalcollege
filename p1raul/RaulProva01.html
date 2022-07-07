@@ -13,8 +13,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Open+Sans:wght@300&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/home.css">
 </head>
@@ -23,7 +22,7 @@
     <header>
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a href="#" class="navbar-brand">
+                <a href="#" class="navbar-brand brand-name">
                     <h2>Foody</h2>
                 </a>
                 <ul class="navbar-nav">
@@ -88,11 +87,11 @@
                         <div class="card-body">
                             <dl>
                                 <dt>Call Us</dt>
-                                <dd><i class="fa fa-phone" aria-hidden="true"></i> +012 345 67890</dd>
+                                <dd class="small"><i class="fa fa-phone" aria-hidden="true"></i> +012 345 67890</dd>
                                 <dt>Email Us</dt>
-                                <dd><i class="fa fa-envelope" aria-hidden="true"></i> info@example.com</dd>
+                                <dd class="small"><i class="fa fa-envelope" aria-hidden="true"></i> info@example.com</dd>
                                 <dt>Office Address</dt>
-                                <dd><i class="fa fa-map-marker" aria-hidden="true"></i> 123 Street, New York, USA</dd>
+                                <dd class="small"><i class="fa fa-map-marker" aria-hidden="true"></i> 123 Street, New York, USA</dd>
                                 <dt>Follow Us</dt>
                                 <dd>
                                     <i class="fa fa-twitter media-icon" aria-hidden="true"></i>
@@ -124,16 +123,79 @@
                 </div>
             </div>
             <div class="row mapa">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6059883.548070473!2d-74.803244!3d42.130435!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1657159706911!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6059883.548070473!2d-74.803244!3d42.130435!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1657159706911!5m2!1sen!2sbd"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </main>
     <footer class="bg-dark">
         <div class="row">
-            <div class="col-3">Foody</div>
-            <div class="col-3">Address</div>
-            <div class="col-3">Quick Links</div>
-            <div class="col-3">Newsletter</div>
+            <div class="col-3">
+                <h2 class="brand-name">Foody</h2>
+                <p>Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet
+                    lorem sit clita</p>
+                <i class="fa fa-twitter media-icon text-white" aria-hidden="true"></i>
+                <i class="fa fa-facebook media-icon text-white" aria-hidden="true"></i>
+                <i class="fa fa-youtube-play media-icon text-white" aria-hidden="true"></i>
+                <i class="fa fa-linkedin media-icon text-white" aria-hidden="true"></i>
+            </div>
+            <div class="col-3">
+                <h4 class="text-white fw-bold">Address</h4>
+                <ul class="list-group">
+                    <li class="list-group-item bg-dark">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        123 Street, New York, USA
+                    </li>
+                    <li class="list-group-item bg-dark">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        +012 345 67890
+                    </li>
+                    <li class="list-group-item bg-dark">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        info@example.com
+                    </li>
+                </ul>
+            </div>
+            <div class="col-3">
+                <h4 class="text-white fw-bold">Quick Links</h4>
+                <ul class="list-group">
+                    <li class="list-group-item bg-dark quick-links">
+                        <i class="fa-solid fa-angle-right bg-dark"></i> About Us
+                    </li>
+                    <li class="list-group-item bg-dark quick-links">
+                        <i class="fa-solid fa-angle-right bg-dark"></i> Contact Us
+                    </li>
+                    <li class="list-group-item bg-dark quick-links">
+                        <i class="fa-solid fa-angle-right bg-dark"></i> Our Services
+                    </li>
+                    <li class="list-group-item bg-dark quick-links">
+                        <i class="fa-solid fa-angle-right bg-dark"></i> Terms & Condition
+                    </li>
+                    <li class="list-group-item bg-dark quick-links">
+                        <i class="fa-solid fa-angle-right bg-dark"></i> Support
+                    </li>
+                </ul>
+            </div>
+            <div class="col-3">
+                <h4 class="text-white fw-bold">Newsletter</h4>
+                <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                <form>
+                    <div class="input-group">
+                        <input type="email" class="form-control bg-dark text-white" placeholder="Your Email">
+                        <button class="btn btn-primary signup-button" type="button">SignUp</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <hr class="footer-hr">
+        <div class="d-flex justify-content-between">
+            <p>© Your Site Name, All Right Reserved.</p>
+            <div>
+                <div>Designed By HTML Codex</div>
+                <div>Distributed By: ThemeWagon</div>
+            </div>
         </div>
     </footer>
 </body>
