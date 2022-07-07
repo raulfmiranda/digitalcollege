@@ -86,6 +86,7 @@ hr {
 
 dt {
     margin-top: 40px;
+    margin-bottom: 10px;
 }
 
 .form__firstrow {
@@ -113,4 +114,22 @@ textarea {
     padding: 10px 40px;
 }
 
+.media-icon {
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 38px;
+    width: 38px;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.mapa {
+    margin-top: 100px;
+}
+
 /************* FOOTER ************/
+
+footer {
+    color: #999999;
+    padding: 100px;
+}
