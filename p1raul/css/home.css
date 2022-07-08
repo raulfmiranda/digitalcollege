@@ -6,7 +6,6 @@ body {
 
 h1, h2, h3, h4 {
     font-family: 'Lora', serif;
-    font-weight: 700;
 }
 
 h1 {
@@ -53,6 +52,7 @@ a, a:hover {
 
 .main__header {
     text-align: center;
+    margin-bottom: 30px;
 }
 
 hr {
@@ -70,6 +70,10 @@ hr {
     margin-top: 10px;
     margin-bottom: 15px;
     width: 6%;
+}
+
+.download-link {
+    color: #3CB815;
 }
 
 .card {
