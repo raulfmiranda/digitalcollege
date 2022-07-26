@@ -1,0 +1,163 @@
+/************* HEADER ************/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Lora', serif;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+header {
+    background-image: url("../img/cesta-background.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+}
+
+.header__bottom {
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.brand-name {
+    color: #3CB815;
+    font-weight: 900;
+}
+
+a, a:hover {
+    color: #555;
+    text-decoration: none;
+}
+
+.breadcrumb > .active {
+    font-weight: 900;
+}
+
+.fa-solid {
+    background: white;
+    border-radius: 100%;
+    padding: 8px;
+}
+
+/************* MAIN ************/
+
+.main__header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+hr {
+    margin: auto;
+    border: 1px solid green;
+    background-color: green;
+}
+
+.main__hr1 {
+    margin-top: 60px;
+    width: 4%;
+}
+
+.main__hr2 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 6%;
+}
+
+.download-link {
+    color: #3CB815;
+}
+
+.card {
+    background-color: #3CB815;
+    border-radius: 0%;
+    color: white;
+    height: 490px;
+    padding-left: 30px;
+    font-family: 'Lora', serif;
+    font-size: larger;
+}
+
+dt {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+dd {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.form__firstrow {
+    display: inline-block;
+    width: 50%;
+}
+
+.form-control {
+    line-height: 40px;
+    border-radius: 0%;
+    margin: 10px 0px;
+}
+
+textarea {
+    height: 200px;
+}
+
+.btn-primary {
+    background-color: #3CB815;
+}
+
+.form__button {
+    line-height: 40px;
+    border-radius: 30px;
+    padding: 10px 40px;
+}
+
+.media-icon {
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 38px;
+    width: 38px;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.mapa {
+    margin-top: 100px;
+}
+
+/************* FOOTER ************/
+
+footer {
+    color: #999999;
+    padding: 100px;
+}
+
+.list-group-item {
+    color: #999999;
+}
+
+.quick-links {
+    margin-bottom: -15px;
+}
+
+.signup-button {
+    height: 70%;
+    border-radius: 0%;
+    position: relative;
+    right: 85px;
+    top: 20px;
+}
+
+.footer-hr {
+    margin-top: 50px;
+    margin-bottom: 25px;
+    border-top: 0.5px solid #999999;
+}
