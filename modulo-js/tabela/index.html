@@ -5,24 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
-<body style="background-color: #CCCCCC;">
-    <section class="card card-body mt-5">
-        <h1>Selecione os cursos</h1>
-        <hr>
-
-        <form action="" id="form"></form>
-        <hr>
-        <p>
-            <strong id="quantidade">0</strong> cursos selecionados
-            ( <span id="cursos"></span> )
-        </p>
-    </section>
+<body>
+    <h1 class="mt-5">Estoque de Bebidas</h1>
+    <hr>
+    <input type="text" id="busca" class="form-control mb-3" placeholder="Buscar">
+    <table class="table table-hover table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th>Nome</th>
+                <th>Descrição</th>
+                <th>Quantidade</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody id="tabela"></tbody>
+    </table>
     <script src="eventos.js"></script>
-    <script src="dados.js"></script>
 </body>
 </html>

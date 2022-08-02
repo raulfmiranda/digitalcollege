@@ -3,6 +3,7 @@ const LOGRADOURO = document.getElementById('logradouro');
 const NUMERO = document.getElementById('numero');
 const BAIRRO = document.getElementById('bairro');
 const CIDADE = document.getElementById('cidade');
+const UF = document.getElementById('uf');
 
 /** 
  quando quiser o valor digitado/selecionado no input
