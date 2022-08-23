@@ -1,0 +1,26 @@
+body {
+    background-color: #ddd;
+}
+
+#conteudo-novo {
+    opacity: 0;
+    transform: translateY(-40px);
+}
+
+.form-animar {
+    animation-name: slide;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slide {
+    20% {
+        opacity: 1;
+        transform: translateY(-10);
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
