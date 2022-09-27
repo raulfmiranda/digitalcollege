@@ -1,0 +1,60 @@
+{
+  "tarefas": [
+    {
+      "id": 1,
+      "titulo": "Definir a planta da casa",
+      "descricao": "Entrar em contato com cliente da casa...",
+      "prioridade": "Media",
+      "status": "Para Fazer",
+      "data": "2022-09-26 18:28:45"
+    },
+    {
+      "id": 2,
+      "titulo": "Lavar Cabelos",
+      "descricao": "Usar shampoo sem alcool...",
+      "prioridade": "Alta",
+      "status": "Feito",
+      "data": "2022-09-21 21:09:12"
+    },
+    {
+      "id": 3,
+      "titulo": "Passear com as cachorras",
+      "descricao": "Cantando eu e minhas cachorras au au...",
+      "prioridade": "Baixa",
+      "status": "Fazendo",
+      "data": "2022-09-26 17:10:07"
+    },
+    {
+      "id": 4,
+      "titulo": "Formatar o notebook",
+      "descricao": "Linux Devian",
+      "prioridade": "Alta",
+      "status": "Para Fazer",
+      "data": "2022-09-26 18:36:12"
+    },
+    {
+      "titulo": "Beber 33 jurubebas",
+      "descricao": "Beber 4 jurubebas ao longo do dia",
+      "status": "Fazendo",
+      "prioridade": "Media",
+      "data": "2022-09-26 11:09:10",
+      "id": 5
+    },
+    {
+      "titulo": "Comer Farinha com rapadura",
+      "descricao": "Comer 3kg de Farinha com rapadura",
+      "status": "Fazendo",
+      "prioridade": "Media",
+      "data": "2022-09-26 08:09:10",
+      "id": 6
+    },
+    {
+      "titulo": "Comer Farinha com rapadura",
+      "descricao": "Comer 3kg de Farinha com rapadura",
+      "status": "Feito",
+      "prioridade": "Media",
+      "data": "2022-09-26 08:09:10",
+      "id": 7
+    }
+  ]
+}
